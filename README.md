@@ -13,8 +13,7 @@
 
 ## 🚀 Installation
 
-1. Copy or link `libcasefolding.so` to your desired game root folder, e.g., `~/.local/share/Steam/steamapps/common/Half-Life 2 Deathmatch/`
-2. Open your game *Properties...* and add `LD_PRELOAD=libcasefolding.so %command%` to the game’s *Launch Options*.
+Open your game *Properties...* and add `LD_PRELOAD=/full/path/to/libcasefolding.so %command%` to the game’s *Launch Options*.
 
 Once done, open your game, and all custom assets should now load correctly without any further modification.<br/>
 All credit for this library can be found [here](https://github.com/ValveSoftware/Source-1-Games/issues/6868#issuecomment-3656676213).
